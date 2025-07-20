@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/yadhu/My_Program/Major_Project/ros/lib/drivers/CMakeLists.txt"
   "/home/yadhu/My_Program/Major_Project/ros/lib/drivers/Liquid_Crystal_RP/CMakeLists.txt"
   "/home/yadhu/My_Program/Major_Project/ros/os/CMakeLists.txt"
+  "/home/yadhu/My_Program/Major_Project/ros/os/boot_loader/CMakeLists.txt"
   "/home/yadhu/My_Program/Major_Project/ros/os/kernel/CMakeLists.txt"
   "/home/yadhu/My_Program/Major_Project/ros/os/scheduler/CMakeLists.txt"
   "/home/yadhu/My_Program/Major_Project/ros/os/svc_handler/CMakeLists.txt"
@@ -297,6 +298,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "os/scheduler/CMakeFiles/CMakeDirectoryInformation.cmake"
   "os/kernel/CMakeFiles/CMakeDirectoryInformation.cmake"
   "os/svc_handler/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "os/boot_loader/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/drivers/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lib/drivers/Liquid_Crystal_RP/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -314,5 +316,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "os/scheduler/CMakeFiles/scheduler.dir/DependInfo.cmake"
   "os/kernel/CMakeFiles/kernel.dir/DependInfo.cmake"
   "os/svc_handler/CMakeFiles/svc_handler.dir/DependInfo.cmake"
+  "os/boot_loader/CMakeFiles/boot_loader.dir/DependInfo.cmake"
   "lib/drivers/Liquid_Crystal_RP/CMakeFiles/Liquid_Crystal_RP.dir/DependInfo.cmake"
   )

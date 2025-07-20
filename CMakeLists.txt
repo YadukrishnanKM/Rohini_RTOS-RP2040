@@ -52,11 +52,12 @@ add_subdirectory(os)
 
 add_subdirectory(lib)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE pico_stdlib hardware_i2c lib terminal scheduler kernel svc_handler)
+target_link_libraries(${PROJECT_NAME} PUBLIC pico_stdlib hardware_i2c lib terminal scheduler kernel svc_handler)
 #--------------------------------------------------------------------------------------------------------
 
 # Enable USB output, UART, etc. if needed
 pico_enable_stdio_usb(${PROJECT_NAME} 1)
+pico_enable_stdio_uart(${PROJECT_NAME} 0)
 
 
 # create map/bin/hex/uf2 file in addition to ELF.

@@ -140,8 +140,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d"
   "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
   "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d"
-  "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
-  "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d"
   "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
   "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d"
   "CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"

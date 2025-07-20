@@ -83,17 +83,903 @@ os/terminal/CMakeFiles/terminal.dir/terminal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/terminal.c.s"
 	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/os/terminal/terminal.c -o CMakeFiles/terminal.dir/terminal.c.s
 
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2040/pico_platform/platform.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2040/pico_platform/platform.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2040/pico_platform/platform.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2040/pico_platform/platform.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_panic/panic.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_panic/panic.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/hardware_claim/claim.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/hardware_claim/claim.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/hardware_claim/claim.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/hardware_claim/claim.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync/sync.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/sem.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/sem.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/lock_core.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/lock_core.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/mutex.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/mutex.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/critical_section.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/critical_section.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/time.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/time.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/time.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/timeout_helper.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/timeout_helper.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_timer/timer.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/datetime.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/datetime.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/pheap.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/pheap.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/queue.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/queue.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_uart/uart.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_pll/pll.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_ticks/ticks.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_ticks/ticks.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_flash/flash.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_flash/flash.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_flash/flash.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_flash/flash.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_math.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_math.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_malloc/malloc.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_malloc/malloc.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_malloc/malloc.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_atomic/atomic.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_atomic/atomic.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_atomic/atomic.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_printf/printf.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_crt0/crt0.S
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_crt0/crt0.S > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_crt0/crt0.S -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: os/terminal/CMakeFiles/terminal.dir/flags.make
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: os/terminal/CMakeFiles/terminal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
 # Object files for target terminal
 terminal_OBJECTS = \
-"CMakeFiles/terminal.dir/terminal.c.o"
+"CMakeFiles/terminal.dir/terminal.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
+"CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 
 # External object files for target terminal
 terminal_EXTERNAL_OBJECTS =
 
 os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/terminal.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
 os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/build.make
+os/terminal/libterminal.a: /home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 os/terminal/libterminal.a: os/terminal/CMakeFiles/terminal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libterminal.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yadhu/My_Program/Major_Project/ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX static library libterminal.a"
 	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && $(CMAKE_COMMAND) -P CMakeFiles/terminal.dir/cmake_clean_target.cmake
 	cd /home/yadhu/My_Program/Major_Project/ros/build/os/terminal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/terminal.dir/link.txt --verbose=$(VERBOSE)
 

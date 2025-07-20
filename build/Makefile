@@ -247,6 +247,19 @@ svc_handler/fast:
 .PHONY : svc_handler/fast
 
 #=============================================================================
+# Target rules for targets named boot_loader
+
+# Build rule for target.
+boot_loader: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boot_loader
+.PHONY : boot_loader
+
+# fast build rule for target.
+boot_loader/fast:
+	$(MAKE) $(MAKESILENT) -f os/boot_loader/CMakeFiles/boot_loader.dir/build.make os/boot_loader/CMakeFiles/boot_loader.dir/build
+.PHONY : boot_loader/fast
+
+#=============================================================================
 # Target rules for targets named Liquid_Crystal_RP
 
 # Build rule for target.
@@ -1907,30 +1920,6 @@ pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros.dir/build.make CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
-
-# target to build an object file
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros.dir/build.make CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-
-# target to preprocess a source file
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros.dir/build.make CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
-
-# target to generate assembly for a file
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros.dir/build.make CMakeFiles/ros.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-.PHONY : pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
-
 pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
 .PHONY : pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
 
@@ -2087,6 +2076,7 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... pioasmBuild"
 	@echo "... Liquid_Crystal_RP"
+	@echo "... boot_loader"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... kernel"
@@ -2300,9 +2290,6 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.o"
 	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
-	@echo "... pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
 	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
 	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"

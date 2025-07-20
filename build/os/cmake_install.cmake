@@ -43,6 +43,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/yadhu/My_Program/Major_Project/ros/build/os/scheduler/cmake_install.cmake")
   include("/home/yadhu/My_Program/Major_Project/ros/build/os/kernel/cmake_install.cmake")
   include("/home/yadhu/My_Program/Major_Project/ros/build/os/svc_handler/cmake_install.cmake")
+  include("/home/yadhu/My_Program/Major_Project/ros/build/os/boot_loader/cmake_install.cmake")
 
 endif()
 

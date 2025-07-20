@@ -4,7 +4,7 @@
 # compile C with /usr/bin/arm-none-eabi-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/yadhu/My_Program/Major_Project/ros/ros -I/home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include
+C_INCLUDES = -I/home/yadhu/My_Program/Major_Project/ros/ros -I/home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include -I/home/yadhu/My_Program/Major_Project/ros/os/scheduler
 
 C_FLAGS = -mcpu=cortex-m0plus -mthumb -Og -g
 

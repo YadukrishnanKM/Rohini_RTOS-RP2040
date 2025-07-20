@@ -130,6 +130,1174 @@ terminal/fast:
 	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/build
 .PHONY : terminal/fast
 
+__/__/pico-sdk/src/common/hardware_claim/claim.o: __/__/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : __/__/pico-sdk/src/common/hardware_claim/claim.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/hardware_claim/claim.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.o
+.PHONY : __/__/pico-sdk/src/common/hardware_claim/claim.c.o
+
+__/__/pico-sdk/src/common/hardware_claim/claim.i: __/__/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : __/__/pico-sdk/src/common/hardware_claim/claim.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/hardware_claim/claim.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.i
+.PHONY : __/__/pico-sdk/src/common/hardware_claim/claim.c.i
+
+__/__/pico-sdk/src/common/hardware_claim/claim.s: __/__/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : __/__/pico-sdk/src/common/hardware_claim/claim.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/hardware_claim/claim.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/hardware_claim/claim.c.s
+.PHONY : __/__/pico-sdk/src/common/hardware_claim/claim.c.s
+
+__/__/pico-sdk/src/common/pico_sync/critical_section.o: __/__/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/critical_section.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_sync/critical_section.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/critical_section.c.o
+
+__/__/pico-sdk/src/common/pico_sync/critical_section.i: __/__/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/critical_section.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_sync/critical_section.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+__/__/pico-sdk/src/common/pico_sync/critical_section.s: __/__/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/critical_section.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_sync/critical_section.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/critical_section.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+__/__/pico-sdk/src/common/pico_sync/lock_core.o: __/__/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/lock_core.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_sync/lock_core.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/lock_core.c.o
+
+__/__/pico-sdk/src/common/pico_sync/lock_core.i: __/__/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/lock_core.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_sync/lock_core.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+__/__/pico-sdk/src/common/pico_sync/lock_core.s: __/__/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/lock_core.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_sync/lock_core.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/lock_core.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+__/__/pico-sdk/src/common/pico_sync/mutex.o: __/__/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/mutex.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_sync/mutex.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/mutex.c.o
+
+__/__/pico-sdk/src/common/pico_sync/mutex.i: __/__/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/mutex.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_sync/mutex.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/mutex.c.i
+
+__/__/pico-sdk/src/common/pico_sync/mutex.s: __/__/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/mutex.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_sync/mutex.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/mutex.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/mutex.c.s
+
+__/__/pico-sdk/src/common/pico_sync/sem.o: __/__/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/sem.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_sync/sem.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_sync/sem.c.o
+
+__/__/pico-sdk/src/common/pico_sync/sem.i: __/__/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/sem.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_sync/sem.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_sync/sem.c.i
+
+__/__/pico-sdk/src/common/pico_sync/sem.s: __/__/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/sem.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_sync/sem.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_sync/sem.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_sync/sem.c.s
+
+__/__/pico-sdk/src/common/pico_time/time.o: __/__/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_time/time.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_time/time.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_time/time.c.o
+
+__/__/pico-sdk/src/common/pico_time/time.i: __/__/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_time/time.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_time/time.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_time/time.c.i
+
+__/__/pico-sdk/src/common/pico_time/time.s: __/__/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_time/time.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_time/time.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/time.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_time/time.c.s
+
+__/__/pico-sdk/src/common/pico_time/timeout_helper.o: __/__/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_time/timeout_helper.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_time/timeout_helper.c.o
+
+__/__/pico-sdk/src/common/pico_time/timeout_helper.i: __/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_time/timeout_helper.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_time/timeout_helper.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+__/__/pico-sdk/src/common/pico_time/timeout_helper.s: __/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_time/timeout_helper.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_time/timeout_helper.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+__/__/pico-sdk/src/common/pico_util/datetime.o: __/__/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_util/datetime.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_util/datetime.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_util/datetime.c.o
+
+__/__/pico-sdk/src/common/pico_util/datetime.i: __/__/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_util/datetime.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_util/datetime.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_util/datetime.c.i
+
+__/__/pico-sdk/src/common/pico_util/datetime.s: __/__/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_util/datetime.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_util/datetime.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/datetime.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_util/datetime.c.s
+
+__/__/pico-sdk/src/common/pico_util/pheap.o: __/__/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_util/pheap.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_util/pheap.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_util/pheap.c.o
+
+__/__/pico-sdk/src/common/pico_util/pheap.i: __/__/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_util/pheap.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_util/pheap.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_util/pheap.c.i
+
+__/__/pico-sdk/src/common/pico_util/pheap.s: __/__/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_util/pheap.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_util/pheap.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/pheap.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_util/pheap.c.s
+
+__/__/pico-sdk/src/common/pico_util/queue.o: __/__/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_util/queue.o
+
+# target to build an object file
+__/__/pico-sdk/src/common/pico_util/queue.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.o
+.PHONY : __/__/pico-sdk/src/common/pico_util/queue.c.o
+
+__/__/pico-sdk/src/common/pico_util/queue.i: __/__/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_util/queue.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/common/pico_util/queue.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.i
+.PHONY : __/__/pico-sdk/src/common/pico_util/queue.c.i
+
+__/__/pico-sdk/src/common/pico_util/queue.s: __/__/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_util/queue.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/common/pico_util/queue.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/common/pico_util/queue.c.s
+.PHONY : __/__/pico-sdk/src/common/pico_util/queue.c.s
+
+__/__/pico-sdk/src/rp2040/pico_platform/platform.o: __/__/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : __/__/pico-sdk/src/rp2040/pico_platform/platform.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.o
+.PHONY : __/__/pico-sdk/src/rp2040/pico_platform/platform.c.o
+
+__/__/pico-sdk/src/rp2040/pico_platform/platform.i: __/__/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : __/__/pico-sdk/src/rp2040/pico_platform/platform.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2040/pico_platform/platform.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.i
+.PHONY : __/__/pico-sdk/src/rp2040/pico_platform/platform.c.i
+
+__/__/pico-sdk/src/rp2040/pico_platform/platform.s: __/__/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : __/__/pico-sdk/src/rp2040/pico_platform/platform.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2040/pico_platform/platform.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2040/pico_platform/platform.c.s
+.PHONY : __/__/pico-sdk/src/rp2040/pico_platform/platform.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o: __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i: __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s: __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_divider/divider.o: __/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_divider/divider.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+
+__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq.o: __/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq.i: __/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq.s: __/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: __/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+__/__/pico-sdk/src/rp2_common/hardware_pll/pll.o: __/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_pll/pll.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_pll/pll.i: __/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_pll/pll.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_pll/pll.s: __/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_pll/pll.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_sync/sync.o: __/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync/sync.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_sync/sync.i: __/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync/sync.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_sync/sync.s: __/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync/sync.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o: __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i: __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s: __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.o: __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.i: __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.s: __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_timer/timer.o: __/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_timer/timer.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_timer/timer.i: __/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_timer/timer.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_timer/timer.s: __/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_timer/timer.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_uart/uart.o: __/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_uart/uart.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_uart/uart.i: __/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_uart/uart.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_uart/uart.s: __/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_uart/uart.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+
+__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.o: __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.i: __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.s: __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: __/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o: __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i: __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s: __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o: __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i: __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s: __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.o: __/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_crt0/crt0.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o: __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o
+
+__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i: __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i
+
+__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s: __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o: __/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o: __/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o: __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i: __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s: __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_math.o: __/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_math.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_math.i: __/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_math.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_math.s: __/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_math.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o: __/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_flash/flash.o: __/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_flash/flash.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_flash/flash.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_flash/flash.i: __/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_flash/flash.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_flash/flash.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_flash/flash.s: __/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_flash/flash.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_flash/flash.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o: __/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o: __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i: __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s: __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_math.o: __/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_math.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_math.i: __/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_math.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_math.s: __/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_math.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o: __/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: __/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.o: __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.i: __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.s: __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: __/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+
+__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.o: __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.i: __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.s: __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_printf/printf.o: __/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_printf/printf.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_printf/printf.i: __/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_printf/printf.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_printf/printf.s: __/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_printf/printf.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.o: __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.i: __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.s: __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s: __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o: __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i: __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s: __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.o: __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.i: __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.s: __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+
+# target to build an object file
+__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+
+__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
+
+# target to preprocess a source file
+__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+
+# target to generate assembly for a file
+__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
+	cd /home/yadhu/My_Program/Major_Project/ros/build && $(MAKE) $(MAKESILENT) -f os/terminal/CMakeFiles/terminal.dir/build.make os/terminal/CMakeFiles/terminal.dir/__/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+.PHONY : __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
 terminal.o: terminal.c.o
 .PHONY : terminal.o
 
@@ -163,6 +1331,152 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... terminal"
+	@echo "... __/__/pico-sdk/src/common/hardware_claim/claim.o"
+	@echo "... __/__/pico-sdk/src/common/hardware_claim/claim.i"
+	@echo "... __/__/pico-sdk/src/common/hardware_claim/claim.s"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/critical_section.i"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/critical_section.s"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/lock_core.i"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/lock_core.s"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/mutex.i"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/mutex.s"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/sem.i"
+	@echo "... __/__/pico-sdk/src/common/pico_sync/sem.s"
+	@echo "... __/__/pico-sdk/src/common/pico_time/time.o"
+	@echo "... __/__/pico-sdk/src/common/pico_time/time.i"
+	@echo "... __/__/pico-sdk/src/common/pico_time/time.s"
+	@echo "... __/__/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... __/__/pico-sdk/src/common/pico_time/timeout_helper.i"
+	@echo "... __/__/pico-sdk/src/common/pico_time/timeout_helper.s"
+	@echo "... __/__/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... __/__/pico-sdk/src/common/pico_util/datetime.i"
+	@echo "... __/__/pico-sdk/src/common/pico_util/datetime.s"
+	@echo "... __/__/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... __/__/pico-sdk/src/common/pico_util/pheap.i"
+	@echo "... __/__/pico-sdk/src/common/pico_util/pheap.s"
+	@echo "... __/__/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... __/__/pico-sdk/src/common/pico_util/queue.i"
+	@echo "... __/__/pico-sdk/src/common/pico_util/queue.s"
+	@echo "... __/__/pico-sdk/src/rp2040/pico_platform/platform.o"
+	@echo "... __/__/pico-sdk/src/rp2040/pico_platform/platform.i"
+	@echo "... __/__/pico-sdk/src/rp2040/pico_platform/platform.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_irq/irq.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_irq/irq.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_pll/pll.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_pll/pll.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_sync/sync.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_sync/sync.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_ticks/ticks.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_timer/timer.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_timer/timer.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_uart/uart.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_uart/uart.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_atomic/atomic.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_crt0/crt0.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_divider/divider_hardware.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_math.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_math.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_flash/flash.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_flash/flash.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_flash/flash.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_math.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_math.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_malloc/malloc.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_platform_panic/panic.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_printf/printf.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_printf/printf.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
+	@echo "... __/__/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
 	@echo "... terminal.o"
 	@echo "... terminal.i"
 	@echo "... terminal.s"

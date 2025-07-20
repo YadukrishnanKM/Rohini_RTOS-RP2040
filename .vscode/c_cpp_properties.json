@@ -3,11 +3,11 @@
         {
             "name": "Linux",
             "includePath": [
-                "/${env:PICO_SDK_PATH}/**",
                 "${workspaceFolder}/build/**",
                 "${workspaceFolder}/pico-sdk/**",
-                "${workspaceFolder}/lib/drivers/**",
-                "${workspaceFolder}/os/**"
+                "${workspaceFolder}/lib/**",
+                "${workspaceFolder}/os/**",
+                "${workspaceFolder}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/arm-none-eabi-gcc",
