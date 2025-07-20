@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libsvc_handler.a CMakeFiles/svc_handler.dir/svc_handler.c.o CMakeFiles/svc_handler.dir/svc_handler.s.o
+/usr/bin/arm-none-eabi-ranlib libsvc_handler.a

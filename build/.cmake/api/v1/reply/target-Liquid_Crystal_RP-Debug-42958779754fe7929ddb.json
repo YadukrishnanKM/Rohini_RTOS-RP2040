@@ -1,0 +1,110 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/drivers/Liquid_Crystal_RP/libLiquid_Crystal_RP.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"lib/drivers/Liquid_Crystal_RP/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/yadhu/My_Program/Major_Project/ros/ros"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/yadhu/My_Program/Major_Project/ros/lib/drivers/Liquid_Crystal_RP"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "Liquid_Crystal_RP::@74fb2091aebf66871d07",
+	"name" : "Liquid_Crystal_RP",
+	"nameOnDisk" : "libLiquid_Crystal_RP.a",
+	"paths" : 
+	{
+		"build" : "lib/drivers/Liquid_Crystal_RP",
+		"source" : "lib/drivers/Liquid_Crystal_RP"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "lib/drivers/Liquid_Crystal_RP/Liquid_Crystal_RP.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

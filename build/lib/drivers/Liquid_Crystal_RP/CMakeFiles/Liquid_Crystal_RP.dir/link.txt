@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libLiquid_Crystal_RP.a CMakeFiles/Liquid_Crystal_RP.dir/Liquid_Crystal_RP.cpp.o
+/usr/bin/arm-none-eabi-ranlib libLiquid_Crystal_RP.a
