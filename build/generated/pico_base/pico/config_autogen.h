@@ -4,7 +4,7 @@
 
 // based on PICO_CONFIG_HEADER_FILES:
 
-#include "/home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/boards/include/boards/pico.h"
-#include "/home/yadhu/My_Program/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
+#include "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/boards/include/boards/pico.h"
+#include "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h"
 
 // based on PICO_RP2040_CONFIG_HEADER_FILES:
