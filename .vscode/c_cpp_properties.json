@@ -7,7 +7,11 @@
                 "${workspaceFolder}/pico-sdk/**",
                 "${workspaceFolder}/lib/**",
                 "${workspaceFolder}/os/**",
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/pico-sdk/src/common/pico_stdlib_headers/include/**",
+                "${workspaceFolder}/pico-sdk/src/rp2_common/pico_multicore/include/**",
+                "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_gpio/include/**",
+                "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_irq/include/**"
             ],
             "defines": [],
             "compilerPath": "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-gcc",
@@ -15,6 +19,22 @@
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-arm",
             "configurationProvider": "ms-vscode.cmake-tools"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/pico-sdk/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-arm"
         }
     ],
     "version": 4

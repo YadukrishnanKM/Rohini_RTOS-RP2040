@@ -37,6 +37,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-objdump.exe")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_lwip/tools/cmake_install.cmake")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

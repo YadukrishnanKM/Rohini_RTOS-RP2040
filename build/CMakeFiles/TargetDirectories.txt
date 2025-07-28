@@ -158,10 +158,16 @@ E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_c
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_async_context/CMakeFiles/rebuild_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/edit_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_btstack/CMakeFiles/rebuild_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/edit_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/rebuild_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/edit_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/rebuild_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/edit_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/rebuild_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_lwip/tools/CMakeFiles/edit_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_lwip/tools/CMakeFiles/rebuild_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/edit_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/rebuild_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/src/rp2_common/pico_mbedtls/CMakeFiles/edit_cache.dir
@@ -197,6 +203,9 @@ E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/CMakeFiles/rebu
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal/CMakeFiles/terminal.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal/CMakeFiles/edit_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal/CMakeFiles/rebuild_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal_core/CMakeFiles/terminal_core.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal_core/CMakeFiles/edit_cache.dir
+E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal_core/CMakeFiles/rebuild_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/scheduler/CMakeFiles/scheduler.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/scheduler/CMakeFiles/edit_cache.dir
 E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/scheduler/CMakeFiles/rebuild_cache.dir

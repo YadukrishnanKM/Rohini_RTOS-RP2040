@@ -4,6 +4,7 @@ add_library(kernel STATIC ${KERNEL_SOURCES})
 target_include_directories(kernel PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 target_link_libraries(kernel  PUBLIC    pico_stdlib_headers
-                                        terminal
-                                        svc_handler 
-                                        boot_loader)
+                                        terminal_core
+                                        scheduler
+                                        hardware_irq
+                                        )

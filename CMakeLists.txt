@@ -52,7 +52,7 @@ add_subdirectory(os)
 
 add_subdirectory(lib)
 
-target_link_libraries(${PROJECT_NAME} PUBLIC pico_stdlib hardware_i2c lib terminal scheduler kernel svc_handler)
+target_link_libraries(${PROJECT_NAME} PUBLIC pico_stdlib hardware_i2c lib terminal_core scheduler kernel svc_handler)
 #--------------------------------------------------------------------------------------------------------
 
 # Enable USB output, UART, etc. if needed

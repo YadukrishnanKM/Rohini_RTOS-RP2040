@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal/cmake_install.cmake")
+  include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/terminal_core/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/scheduler/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/kernel/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/svc_handler/cmake_install.cmake")
