@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.13)
 
 
 # initialize the SDK based on PICO_SDK_PATH
-set (PICO_SDK_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-sdk")
-
+set(PICO_SDK_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-sdk")
+set(PICO_EXTRAS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-extras")
 set(PICOTOOL_FETCH_FROM_GIT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/picotool")
 
 #--------------------------------------------------------------------------------------------------------
@@ -28,6 +28,10 @@ message("\n\n\n PICO_SDK_PATH: ${PICO_SDK_PATH} \n\n")
 
 # Include the Pico SDK import file
 include("${PICO_SDK_PATH}/external/pico_sdk_import.cmake")
+
+# Include the Pico Extras import file
+include("${PICO_EXTRAS_PATH}/external/pico_extras_import.cmake")
+
 
 project("ros" LANGUAGES C CXX ASM)
 

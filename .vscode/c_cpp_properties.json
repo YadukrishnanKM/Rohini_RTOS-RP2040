@@ -3,28 +3,41 @@
         {
             "name": "Linux",
             "includePath": [
+                "${workspaceFolder}/**",
                 "${workspaceFolder}/build/**",
                 "${workspaceFolder}/pico-sdk/**",
                 "${workspaceFolder}/lib/**",
                 "${workspaceFolder}/os/**",
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/pico-extras/**",
+                "${workspaceFolder}/pico-extras/src/rp2_common/pico_sleep/include/**",
                 "${workspaceFolder}/pico-sdk/src/common/pico_stdlib_headers/include/**",
                 "${workspaceFolder}/pico-sdk/src/rp2_common/pico_multicore/include/**",
                 "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_gpio/include/**",
-                "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_irq/include/**"
+                "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_irq/include/**",
+                "${workspaceFolder}/pico-extras/src/rp2_common/pico_sleep/include"
             ],
             "defines": [],
-            "compilerPath": "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-gcc",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-arm",
+            "intelliSenseMode": "linux-clang-arm",
             "configurationProvider": "ms-vscode.cmake-tools"
         },
         {
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/pico-sdk/**"
+                "${workspaceFolder}/build/**",
+                "${workspaceFolder}/pico-sdk/**",
+                "${workspaceFolder}/lib/**",
+                "${workspaceFolder}/os/**",
+                "${workspaceFolder}/pico-extras/**",
+                "${workspaceFolder}/pico-extras/src/rp2_common/pico_sleep/include/**",
+                "${workspaceFolder}/pico-sdk/src/common/pico_stdlib_headers/include/**",
+                "${workspaceFolder}/pico-sdk/src/rp2_common/pico_multicore/include/**",
+                "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_gpio/include/**",
+                "${workspaceFolder}/pico-sdk/src/rp2_common/hardware_irq/include/**",
+                "${workspaceFolder}/pico-extras/src/rp2_common/pico_sleep/include"
             ],
             "defines": [
                 "_DEBUG",

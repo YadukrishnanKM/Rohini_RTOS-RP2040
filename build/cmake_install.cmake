@@ -39,6 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico_extras/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/pico-sdk/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/lib/cmake_install.cmake")
