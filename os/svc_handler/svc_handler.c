@@ -12,9 +12,9 @@ static void software_reset(void)
 }
 
 
-static void master_caution(void)
+static void master_caution(void) //yet to complete
 {
-    // Default stub: override in your application
+    // Default stub:  overridein your application, now modified with __attribute__((used));
 }
 
 

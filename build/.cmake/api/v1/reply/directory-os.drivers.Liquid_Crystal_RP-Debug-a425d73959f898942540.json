@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "os/drivers/Liquid_Crystal_RP",
+		"source" : "os/drivers/Liquid_Crystal_RP"
+	}
+}

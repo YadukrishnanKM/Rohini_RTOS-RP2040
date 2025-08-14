@@ -19,21 +19,21 @@ extern "C" {
  * @param gpio GPIO pin number.
  * @param mode INPUT, OUTPUT, or INPUT_PULLUP.
  */
-static inline void pinMode(uint gpio, int mode);
+static inline __attribute__((always_inline)) void pinMode(uint gpio, int mode);
 
 /**
  * @brief Writes a digital value to a GPIO pin.
  * @param gpio GPIO pin number.
  * @param value true for HIGH, false for LOW.
  */
-static inline void digitalWrite(uint gpio, bool value);
+static inline __attribute__((always_inline)) void digitalWrite(uint gpio, bool value);
 
 /**
  * @brief Reads the digital value from a GPIO pin.
  * @param gpio GPIO pin number.
  * @return true if HIGH, false if LOW.
  */
-static inline bool digitalRead(uint gpio);
+static inline __attribute__((always_inline)) bool digitalRead(uint gpio);
 
 #ifdef __cplusplus
 }

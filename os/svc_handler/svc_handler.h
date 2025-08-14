@@ -22,7 +22,7 @@ typedef enum {
 //-----------------------------------------------------------------------------
 // 2. Low-level SVC invocations
 //-----------------------------------------------------------------------------
-static inline __attribute__((always_inline)) uint32_t svc_comp_time(uint8_t id)
+static inline __attribute__((always_inline)) uint32_t svc_comp_time(uint8_t id) 
 {
     register uint32_t r0 __asm__("r0");
     __asm__ volatile (
@@ -68,9 +68,9 @@ static inline void svc_call_go_to_dormant_gpio_irq(void) { (void)svc_comp_time(G
 //-----------------------------------------------------------------------------
 // 4. Handler prototypes (to be implemented by user or overridden)
 //-----------------------------------------------------------------------------
-static void software_reset(void);
-static void master_caution(void);
-static void go_to_dormant_gpio_irq(uint8_t gpio_pin);
+static void software_reset(void) __attribute__((used));
+static void master_caution(void) __attribute__((used));
+static void go_to_dormant_gpio_irq(uint8_t gpio_pin) __attribute__((used));
 
 #ifdef __cplusplus
 }

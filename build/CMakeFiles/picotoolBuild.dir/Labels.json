@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/picotoolBuild"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/picotoolBuild.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/picotoolBuild-complete.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+		},
+		{
+			"file" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotoolBuild"
+		],
+		"name" : "picotoolBuild"
+	}
+}

@@ -1,0 +1,1114 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "os/svc_handler/libsvc_handler.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"os/svc_handler/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_AON_TIMER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_FLASH=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM_COMPILER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM_PANIC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM_SECTIONS=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_TIME_ADAPTER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_32BIT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_EXTRAS=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_RP2040=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/ros"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/os/svc_handler"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_atomic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_base_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2040/pico_platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_panic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_sections/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_ticks/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/boot_picoboot_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/boot_bootrom_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_boot_lock/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_flash/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_time_adapter/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_bit_ops_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_divider_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/boot_picobin_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-extras/src/rp2_common/pico_sleep/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-extras/src/rp2_common/hardware_rosc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_aon_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_rtc/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m0plus -mthumb -Og -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "LIB_CMSIS_CORE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_AON_TIMER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_FLASH=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM_COMPILER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM_PANIC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_PLATFORM_SECTIONS=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_CRITICAL_SECTION=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_MUTEX=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_SYNC_SEM=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_TIME=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_TIME_ADAPTER=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "LIB_PICO_UTIL=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_32BIT=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BOARD=\"pico\""
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_BUILD=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_EXTRAS=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_NO_HARDWARE=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_ON_DEVICE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PICO_RP2040=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/ros"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/os/svc_handler"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_atomic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_clocks/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_base_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/generated/pico_base"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/boards/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2040/pico_platform/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2040/hardware_regs/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_base/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_compiler/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_panic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_platform_sections/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2040/hardware_structs/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/hardware_claim/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_gpio/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_irq/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_resets/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_pll/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_vreg/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_watchdog/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_ticks/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_bootrom/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/boot_picoboot_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/boot_bootrom_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_boot_lock/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_flash/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_time/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_sync/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_util/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_time_adapter/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_xosc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime_init/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_runtime/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_uart/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_bit_ops_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_divider_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_divider/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_double/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_float/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_malloc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/pico_binary_info/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_printf/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_multicore/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/common/boot_picobin_headers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-extras/src/rp2_common/pico_sleep/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-extras/src/rp2_common/hardware_rosc/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/pico_aon_timer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/src/rp2_common/hardware_rtc/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				1,
+				11
+			]
+		}
+	],
+	"id" : "svc_handler::@c26fa20025289c2526c5",
+	"name" : "svc_handler",
+	"nameOnDisk" : "libsvc_handler.a",
+	"paths" : 
+	{
+		"build" : "os/svc_handler",
+		"source" : "os/svc_handler"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os/svc_handler/svc_handler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "os/svc_handler/svc_handler.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/cmsis/stub/CMSIS/Device/RP2040/Source/system_RP2040.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_clocks/clocks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2040/pico_platform/platform.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/pico_platform_panic/panic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/hardware_claim/claim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_sync/sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_gpio/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_irq/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_sync/sem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_sync/lock_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_sync/mutex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_sync/critical_section.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_time/time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_time/timeout_helper.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_timer/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_util/datetime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_util/pheap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/common/pico_util/queue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_pll/pll.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_vreg/vreg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_ticks/ticks.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/pico_bootrom/bootrom.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/pico_flash/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_xosc/xosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-extras/src/rp2_common/pico_sleep/sleep.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-extras/src/rp2_common/hardware_rosc/rosc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/pico_aon_timer/aon_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pico-sdk/src/rp2_common/hardware_rtc/rtc.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

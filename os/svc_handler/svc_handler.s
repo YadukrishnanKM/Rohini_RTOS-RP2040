@@ -44,14 +44,14 @@ use_msp:
 
     BX LR                  // Default return
 
-call_function_x:
+call_software_reset:
     BL software_reset
     BX LR
 
-call_function_y:
+call_software_reset:
     BL master_caution
     BX LR
 
-call_function_z:
+call_software_reset:
     BL go_to_dormant_gpio_irq
     BX LR

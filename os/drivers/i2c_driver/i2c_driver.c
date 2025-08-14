@@ -2,7 +2,7 @@
 
 
 
-static inline void Wire_begin(uint freq, uint sda, uint scl) {
+static inline __attribute__((always_inline)) void Wire_begin(uint freq, uint sda, uint scl) {
     i2c_init(i2c0, freq);
 
     gpio_init(sda);
@@ -15,10 +15,10 @@ static inline void Wire_begin(uint freq, uint sda, uint scl) {
     gpio_pull_up(scl);
 }
 
-static inline void Wire_write(uint8_t addr, const uint8_t *data, size_t len) {
+static inline __attribute__((always_inline)) void Wire_write(uint8_t addr, const uint8_t *data, size_t len) {
     i2c_write_blocking(i2c0, addr, data, len, false);
 }
 
-static inline void Wire_read(uint8_t addr, uint8_t *buffer, size_t len) {
+static inline __attribute__((always_inline)) void Wire_read(uint8_t addr, uint8_t *buffer, size_t len) {
     i2c_read_blocking(i2c0, addr, buffer, len, false);
 }
