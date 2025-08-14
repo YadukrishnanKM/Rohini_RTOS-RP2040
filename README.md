@@ -2,6 +2,10 @@
 
 ## Overview
 
+<p align="center">
+  <img src="icon.png" alt="Logo" width="450"/>
+</p>
+
 The **Rohini RTOS Kernel** is the core execution engine of the Rohini Real-Time Operating System for the Raspberry Pi RP2040 microcontroller.  
 It provides a **preemptive, multitasking environment** with process management, dual-core scheduling, and an optional object-oriented task model for C++ developers.
 
