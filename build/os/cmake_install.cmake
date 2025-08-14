@@ -44,7 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/scheduler/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/kernel/cmake_install.cmake")
   include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/svc_handler/cmake_install.cmake")
-  include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/boot_loader/cmake_install.cmake")
+  include("E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/os/drivers/cmake_install.cmake")
 
 endif()
 

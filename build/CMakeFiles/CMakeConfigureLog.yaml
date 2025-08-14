@@ -560,3 +560,757 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      The target system is: PICO -  - cortex-m0plus
+      The host system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/"
+      - "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/cmake/"
+    found: "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "E:\\PROGRAM\\PYTHON"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\usr\\bin"
+        - "E:\\PROGRAM\\PYTHON\\Scripts\\"
+        - "E:\\PROGRAM\\PYTHON\\"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Programs\\oh-my-posh\\bin"
+        - "C:\\Program Files\\SDCC\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ros"
+      CMAKE_FIND_ROOT_PATH: "E:/PROGRAM/MSYS2_x86_64/mingw64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-exit.o): in function `exit':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text+0x16): undefined reference to `_exit'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_exit): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-exit.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text+0x16): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-closer.o): in function `_close_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text+0xc): undefined reference to `_close'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_close): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-closer.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text+0xc): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text+0x10): undefined reference to `_lseek'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_lseek): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-lseekr.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text+0x10): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-readr.o): in function `_read_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text+0x10): undefined reference to `_read'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_read): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-readr.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text+0x10): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-writer.o): in function `_write_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text+0x10): undefined reference to `_write'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_write): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-writer.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text+0x10): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text+0xc): undefined reference to `_sbrk'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_sbrk): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-sbrkr.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text+0xc): dangerous relocation: unsupported relocation
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/"
+      - "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/cmake/"
+    found: "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "E:\\PROGRAM\\PYTHON"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\usr\\bin"
+        - "E:\\PROGRAM\\PYTHON\\Scripts\\"
+        - "E:\\PROGRAM\\PYTHON\\"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Programs\\oh-my-posh\\bin"
+        - "C:\\Program Files\\SDCC\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ros"
+      CMAKE_FIND_ROOT_PATH: "E:/PROGRAM/MSYS2_x86_64/mingw64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-gcc.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/4.1.0/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/"
+      - "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/cmake/"
+    found: "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "E:\\PROGRAM\\PYTHON"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\usr\\bin"
+        - "E:\\PROGRAM\\PYTHON\\Scripts\\"
+        - "E:\\PROGRAM\\PYTHON\\"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Programs\\oh-my-posh\\bin"
+        - "C:\\Program Files\\SDCC\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ros"
+      CMAKE_FIND_ROOT_PATH: "E:/PROGRAM/MSYS2_x86_64/mingw64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags:  
+      
+      The output was:
+      1
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-exit.o): in function `exit':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text+0x16): undefined reference to `_exit'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_exit): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-exit.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/stdlib/exit.c:65:(.text+0x16): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-closer.o): in function `_close_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text+0xc): undefined reference to `_close'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_close): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-closer.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/closer.c:47:(.text+0xc): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text+0x10): undefined reference to `_lseek'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_lseek): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-lseekr.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/lseekr.c:49:(.text+0x10): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-readr.o): in function `_read_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text+0x10): undefined reference to `_read'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_read): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-readr.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/readr.c:49:(.text+0x10): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-writer.o): in function `_write_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text+0x10): undefined reference to `_write'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_write): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-writer.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/writer.c:49:(.text+0x10): dangerous relocation: unsupported relocation
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text+0xc): undefined reference to `_sbrk'
+      E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: (_sbrk): Unknown destination type (ARM/Thumb) in E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\\libc.a(libc_a-sbrkr.o)
+      C:/M/B/src/newlib-4.5.0.20241231/newlib/libc/reent/sbrkr.c:51:(.text+0xc): dangerous relocation: unsupported relocation
+      collect2.exe: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/"
+      - "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/cmake/"
+    found: "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "E:\\PROGRAM\\PYTHON"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin"
+        - "E:\\PROGRAM\\MSYS2_x86_64\\usr\\bin"
+        - "E:\\PROGRAM\\PYTHON\\Scripts\\"
+        - "E:\\PROGRAM\\PYTHON\\"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\yadhu\\AppData\\Local\\Programs\\oh-my-posh\\bin"
+        - "C:\\Program Files\\SDCC\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ros"
+      CMAKE_FIND_ROOT_PATH: "E:/PROGRAM/MSYS2_x86_64/mingw64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: E:/PROGRAM/MSYS2_x86_64/mingw64/bin/arm-none-eabi-g++.exe 
+      Build flags: -mcpu=cortex-m0plus;-mthumb
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/4.1.0/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-1t071d"
+      binary: "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-1t071d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_C_FLAGS_DEBUG: "-Og -g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-1t071d'
+        
+        Run Build Command(s): E:/PROGRAM/MSYS2_x86_64/mingw64/bin/ninja.exe -v cmTC_16a1f
+        [1/2] E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj -c E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe
+        Target: arm-none-eabi
+        Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_16a1f.dir/'
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/ -D__USES_INITFINI__ E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_16a1f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccszP9Oz.s
+        GNU C17 (GCC) version 13.3.0 (arm-none-eabi)
+        	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include-fixed"
+        ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 06d5b55308da34f3882b0147b89ed8ab
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_16a1f.dir/'
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccszP9Oz.s
+        GNU assembler version 2.45 (arm-none-eabi) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj -o cmTC_16a1f.elf   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe
+        COLLECT_LTO_WRAPPER=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_16a1f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_16a1f.elf.'
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/collect2.exe -plugin E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/liblto_plugin.dll -plugin-opt=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccLCoTAp.res -X -o cmTC_16a1f.elf -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0 -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj
+        E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_16a1f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_16a1f.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include-fixed]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include]
+        implicit include dirs: [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include-fixed;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-1t071d']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/PROGRAM/MSYS2_x86_64/mingw64/bin/ninja.exe -v cmTC_16a1f]
+        ignore line: [[1/2] E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj -c E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_16a1f.dir/']
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/cc1.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/ -D__USES_INITFINI__ E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_16a1f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccszP9Oz.s]
+        ignore line: [GNU C17 (GCC) version 13.3.0 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 06d5b55308da34f3882b0147b89ed8ab]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_16a1f.dir/']
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccszP9Oz.s]
+        ignore line: [GNU assembler version 2.45 (arm-none-eabi) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj -o cmTC_16a1f.elf   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_16a1f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_16a1f.elf.']
+        link line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/collect2.exe -plugin E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/liblto_plugin.dll -plugin-opt=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccLCoTAp.res -X -o cmTC_16a1f.elf -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0 -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj]
+          arg [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccLCoTAp.res] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_16a1f.elf] ==> ignore
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_16a1f.dir/CMakeCCompilerABI.c.obj] ==> ignore
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_16a1f.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_16a1f.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib/thumb/v6-m/nofp;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-b491ex"
+      binary: "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-b491ex"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-mcpu=cortex-m0plus -mthumb"
+      CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/pico-sdk/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-b491ex'
+        
+        Run Build Command(s): E:/PROGRAM/MSYS2_x86_64/mingw64/bin/ninja.exe -v cmTC_6838d
+        [1/2] E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj -c E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe
+        Target: arm-none-eabi
+        Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6838d.dir/'
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/ -D__USES_INITFINI__ E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6838d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccdOqFce.s
+        GNU C++17 (GCC) version 13.3.0 (arm-none-eabi)
+        	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/backward"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include-fixed"
+        ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"
+        ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/backward
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 7ba66b05935959252c401a92563e75ee
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6838d.dir/'
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccdOqFce.s
+        GNU assembler version 2.45 (arm-none-eabi) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6838d.elf   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe
+        COLLECT_LTO_WRAPPER=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe
+        Target: arm-none-eabi
+        Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/;E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6838d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6838d.elf.'
+         E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/collect2.exe -plugin E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/liblto_plugin.dll -plugin-opt=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccVQ5kIM.res -X -o cmTC_6838d.elf -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0 -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj
+        E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00008000
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6838d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6838d.elf.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/backward]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed]
+          add: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include]
+        end of search list found
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include/c++/13.3.0]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/backward] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include/c++/13.3.0/backward]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include-fixed]
+        collapse include dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include]
+        implicit include dirs: [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include/c++/13.3.0;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include/c++/13.3.0/backward;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/include-fixed;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "pico-extras/CMakeLists.txt:12 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/ABCV/Hard_ware/Rasbery pi programs/Major_Project/ros/build/CMakeFiles/CMakeScratch/TryCompile-b491ex']
+        ignore line: []
+        ignore line: [Run Build Command(s): E:/PROGRAM/MSYS2_x86_64/mingw64/bin/ninja.exe -v cmTC_6838d]
+        ignore line: [[1/2] E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe   -mcpu=cortex-m0plus -mthumb    -v -o CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj -c E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6838d.dir/']
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/cc1plus.exe -quiet -v -imultilib thumb/v6-m/nofp -iprefix E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/ -D__USES_INITFINI__ E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6838d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m0plus -mthumb -mfloat-abi=soft -mlibarch=armv6s-m -march=armv6s-m -version -o C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccdOqFce.s]
+        ignore line: [GNU C++17 (GCC) version 13.3.0 (arm-none-eabi)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/backward"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/sys-include"]
+        ignore line: [ignoring duplicate directory "E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/../../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/arm-none-eabi/thumb/v6-m/nofp]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include/c++/13.3.0/backward]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/include-fixed]
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 7ba66b05935959252c401a92563e75ee]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6838d.dir/']
+        ignore line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/as.exe -v -march=armv6s-m -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccdOqFce.s]
+        ignore line: [GNU assembler version 2.45 (arm-none-eabi) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-v' '-o' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe -mcpu=cortex-m0plus -mthumb -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6838d.elf   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=E:\\PROGRAM\\MSYS2_x86_64\\mingw64\\bin\\arm-none-eabi-g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe]
+        ignore line: [Target: arm-none-eabi]
+        ignore line: [Configured with: ../gcc-13.3.0/configure --prefix=/mingw64 --target=arm-none-eabi --with-native-system-header-dir=/mingw64/include --libexecdir=/mingw64/lib --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --disable-libada --with-gnu-as --with-gnu-ld --with-system-zlib --with-newlib --with-headers=/mingw64/arm-none-eabi/include --with-python-dir=share/gcc-arm-none-eabi --with-gmp --with-mpfr --with-mpc --with-isl --with-libelf --enable-gnu-indirect_function --with-multilib-list=rmprofile --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ \\ -Wl,--stack,12582912' LDFLAGS=' -Wl,--disable-dynamicbase']
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/]
+        ignore line: [LIBRARY_PATH=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/]
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6838d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6838d.elf.']
+        link line: [ E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/collect2.exe -plugin E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/liblto_plugin.dll -plugin-opt=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccVQ5kIM.res -X -o cmTC_6838d.elf -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0 -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc -LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj]
+          arg [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\yadhu\\AppData\\Local\\Temp\\ccVQ5kIM.res] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6838d.elf] ==> ignore
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc]
+          arg [-LE:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib] ==> dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib]
+          arg [--build-id=none] ==> ignore
+          arg [CMakeFiles/cmTC_6838d.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+        ignore line: [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/bin/ld.exe: warning: cannot find entry symbol _start]
+        ignore line: [ defaulting to 00008000]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m0plus' '-mthumb' '-nostdlib' '-v' '-o' 'cmTC_6838d.elf' '-mfloat-abi=soft' '-mlibarch=armv6s-m' '-march=armv6s-m' '-dumpdir' 'cmTC_6838d.elf.']
+        ignore line: []
+        ignore line: []
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib/thumb/v6-m/nofp] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib/thumb/v6-m/nofp]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc]
+        collapse library dir [E:/PROGRAM/MSYS2_x86_64/mingw64/bin/../lib/gcc/arm-none-eabi/13.3.0/../../../../arm-none-eabi/lib] ==> [E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0/thumb/v6-m/nofp;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib/thumb/v6-m/nofp;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc/arm-none-eabi/13.3.0;E:/PROGRAM/MSYS2_x86_64/mingw64/lib/gcc;E:/PROGRAM/MSYS2_x86_64/mingw64/arm-none-eabi/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "E:/PROGRAM/MSYS2_x86_64/mingw64/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc.exe (GCC) 13.3.0
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+...

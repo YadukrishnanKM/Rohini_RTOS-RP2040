@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void terminal_init(Terminal* t) {
+static void terminal_init(Terminal* t) {
     t->index = 0;
     t->command_ready = false;
     t->buffer[0] = '\0';
@@ -11,7 +11,7 @@ void terminal_init(Terminal* t) {
     printf("-> ");
 }
 
-void terminal_update(Terminal* t) {
+static void terminal_update(Terminal* t) {
     int c;
     while ((c = getchar_timeout_us(0)) != PICO_ERROR_TIMEOUT) {
         if (c == '\r' || c == '\n') {
@@ -45,15 +45,15 @@ void terminal_update(Terminal* t) {
     }
 }
 
-bool terminal_has_command(Terminal* t) {
+static bool terminal_has_command(Terminal* t) {
     return t->command_ready;
 }
 
-char* terminal_get_command(Terminal* t) {
+static char* terminal_get_command(Terminal* t) {
     t->command_ready = false;
     return t->command;
 }
 
-char* terminal_get_payload(Terminal* t) {
+static char* terminal_get_payload(Terminal* t) {
     return t->payload;
 }

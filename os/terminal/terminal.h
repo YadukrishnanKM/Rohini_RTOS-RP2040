@@ -39,7 +39,7 @@ typedef struct {
  *
  * @param t Pointer to the Terminal instance to initialize.
  */
-void terminal_init(Terminal* t);
+static void terminal_init(Terminal* t) __attribute__((no_inline));
 
 /**
  * @brief Read and process incoming characters from USB STDIO.
@@ -55,7 +55,7 @@ void terminal_init(Terminal* t);
  *
  * @param t Pointer to the Terminal instance to update.
  */
-void terminal_update(Terminal* t);
+static void terminal_update(Terminal* t) __attribute__((no_inline));
 
 /**
  * @brief Query whether a complete command has been received.
@@ -66,7 +66,7 @@ void terminal_update(Terminal* t);
  * @return true if a command+payload pair is ready to be handled.
  * @return false otherwise.
  */
-bool terminal_has_command(Terminal* t);
+static bool terminal_has_command(Terminal* t) __attribute__((no_inline));
 
 /**
  * @brief Retrieve the parsed command token.
@@ -76,7 +76,7 @@ bool terminal_has_command(Terminal* t);
  * @param t Pointer to the Terminal instance.
  * @return Pointer to a NUL-terminated string containing the command.
  */
-char* terminal_get_command(Terminal* t);
+static char* terminal_get_command(Terminal* t) __attribute__((no_inline));
 
 /**
  * @brief Retrieve the payload string (everything after the command token).
@@ -86,4 +86,4 @@ char* terminal_get_command(Terminal* t);
  * @param t Pointer to the Terminal instance.
  * @return Pointer to a NUL-terminated string containing the payload.
  */
-char* terminal_get_payload(Terminal* t);
+static char* terminal_get_payload(Terminal* t);

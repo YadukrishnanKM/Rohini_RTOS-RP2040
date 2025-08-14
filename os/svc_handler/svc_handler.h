@@ -15,6 +15,8 @@ typedef enum {
     RESET,
     MASTER_CAUTION,
     GO_TO_DORMANT,
+    TERMINAL_WRITE,
+    TERMINAL_READ,
 } svc_id_t;
 
 //-----------------------------------------------------------------------------
