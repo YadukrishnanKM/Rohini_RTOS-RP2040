@@ -1,18 +1,27 @@
 #pragma once
-
-#include "pico/stdlib.h"
-
-#define INPUT         0
-#define OUTPUT        1
-#define INPUT_PULLUP  2
+#include "hardware/regs/io_bank0.h"
+#include "hardware/structs/io_bank0.h"
+#include "hardware/structs/pads_bank0.h"
+#include "hardware/structs/sio.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-// Mode constants as bit flags
-#define _IS_OUTPUT(mode)     ((mode) & 0x01)
-#define _IS_PULLUP(mode)     (((mode) >> 1) & 0x01)
+// ─────────────────────────────────────────────────────────────
+// GPIO mode flags (bitmask-style)
+#define INPUT           0x00  // Input, no pull
+#define OUTPUT          0x01  // Output
+#define INPUT_PULLUP    0x02  // Input with pull-up
+#define INPUT_PULLDOWN  0x04  // Input with pull-down
+
+// ─────────────────────────────────────────────────────────────
+// Branchless mode helpers
+#define _IS_OUTPUT(mode)      ((mode) & OUTPUT)
+#define _IS_PULLUP(mode)      (((mode) & INPUT_PULLUP) >> 1)
+#define _IS_PULLDOWN(mode)    (((mode) & INPUT_PULLDOWN) >> 2)
+
+// ─────────────────────────────────────────────────────────────
 
 /**
  * @brief Sets the mode of a GPIO pin (no branching).

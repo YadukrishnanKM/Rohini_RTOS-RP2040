@@ -5,7 +5,8 @@
         "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
         "core_cm0plus.h": "c",
         "sleep.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "platform_defs.h": "c"
     }
 
 }
