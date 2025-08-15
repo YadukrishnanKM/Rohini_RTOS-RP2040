@@ -6,7 +6,15 @@
         "core_cm0plus.h": "c",
         "sleep.h": "c",
         "gpio.h": "c",
-        "platform_defs.h": "c"
+        "platform_defs.h": "c",
+        "io_bank0.h": "c",
+        "pads_bank0.h": "c",
+        "any": "c",
+        "memory": "c",
+        "optional": "c",
+        "address_mapped.h": "c",
+        "resets.h": "c",
+        "ranges": "c"
     }
 
 }
