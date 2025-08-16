@@ -1,164 +1,118 @@
-# Rohini RTOS – (Preview beta) Version 0.1.8
-
-## Overview
+# Rohini RTOS for RP2040 — v0.2.3
 
 <p align="center">
   <img src="icon.png" alt="Logo" width="450"/>
 </p>
 
-The **Rohini RTOS Kernel** is the core execution engine of the Rohini Real-Time Operating System for the Raspberry Pi RP2040 microcontroller.  
-It provides a **preemptive, multitasking environment** with process management, dual-core scheduling, and an optional object-oriented task model for C++ developers.
+Rohini RTOS is a lightweight, preemptive real-time operating system designed for the Raspberry Pi RP2040 microcontroller.  
+It provides dual-core scheduling, process/task management, CMSIS compatibility, and a set of peripheral drivers.  
 
-This kernel is designed to be:
-- **Lightweight** – minimal footprint suitable for microcontrollers
-- **Deterministic** – preemptive scheduling with predictable context switching
-- **Dual-core aware** – runs tasks on both RP2040 cores
-- **C and C++ friendly** – low-level C API + high-level C++ wrappers
 
 ---
 
-## Features
+## 📂 Repository Structure
 
-### Process & Task Management
-- Create, run, fork, and terminate processes
-- Replace process execution image (`exec`)
-- Wait for child process termination (`wait`)
-- Cooperative yielding (`yield`)
+```
 
-### Scheduler
-- Preemptive multitasking driven by `SysTick` interrupts
-- Configurable to run on **Core 1** while **Core 0** handles I/O or setup
+.
+├── CMakeLists.txt          # RTOS build configuration
+├── LICENCE                 # GPL-3.0 license
+├── kernel/                 # Core kernel (C++ API)
+├── scheduler/              # Preemptive scheduler (C API)
+├── svc\_handler/            # Supervisor call handler (SVC, context switching)
+├── drivers/                # Peripheral drivers
+├── terminal/               # Minimal terminal interface
+├── terminal\_core/          # Complete terminal-enabled RTOS build
+├── ros\_cmsis\_compat/       # CMSIS compatibility layer
+├── external/               # RTOS import scripts
+└── icon.png                # Project logo
 
-### C++ Integration
-- `Kernel` class for hardware init and scheduler control
-- `Process` base class for object-oriented task creation
-
----
-
-## Architecture
-
-```text
-+------------------------------+
-| Core 0                       |
-| - Kernel::init()             |
-| - Process registration       |
-| - Launch Core 1 scheduler    |
-+------------------------------+
-                │
-                ▼
-+------------------------------+
-| Core 1                       |
-| - SysTick-driven scheduler   |
-| - Runs ready processes       |
-+------------------------------+
 ````
 
 ---
 
-## Directory Structure
+## 🚀 Features
 
-```
-kernel.h         # C++ wrapper API for the kernel
-scheduler.h      # Low-level C scheduler API
-terminal_core.h  # Terminal/command handling core
-os/              # OS core components (kernel, scheduler, services)
-lib/             # Supporting libraries (drivers, utils)
-src/main.cpp     # Example user application
-CMakeLists.txt   # Project build configuration
-```
+- Preemptive multitasking on dual cores  
+- SysTick-based task switching  
+- `fork`, `exec`, `exit`, `wait`, `yield` process control  
+- CMSIS compatibility shim  
+- Modular drivers: GPIO, SPI, I²C, UART, Sleep, LCD (HD44780 over I²C)  
+- Supervisor Call (SVC) context switching in assembly  
+- Optional `terminal_core` variant with CLI  
 
 ---
 
-## Building Rohini RTOS Kernel
+## 🔧 Getting Started
 
-This project uses **CMake** and the **Raspberry Pi Pico SDK**.
-
-### 1. Clone Dependencies
+### 1. Clone with SDKs
 
 ```bash
+git clone https://github.com/YadukrishnanKM/Rohini_RTOS-RP2040.git
 git clone https://github.com/raspberrypi/pico-sdk.git
 git clone https://github.com/raspberrypi/pico-extras.git
-git clone https://github.com/raspberrypi/picotool.git
-```
+````
 
-Ensure they are in the same directory as your project.
+Make sure `pico-sdk`, `pico-extras`, and `Rohini_RTOS-RP2040` are in the same parent directory.
 
-### 2. Example CMakeLists.txt
+---
+
+### 2. Example `CMakeLists.txt`
+
+Here’s a **simplified project CMake** that uses Rohini RTOS:
 
 ```cmake
 cmake_minimum_required(VERSION 3.13)
 
-# SDK and extras paths
-set(PICO_SDK_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-sdk")
-set(PICO_EXTRAS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-extras")
-set(PICOTOOL_FETCH_FROM_GIT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/picotool")
+# Paths (adjust if needed)
+set(PICO_SDK_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../pico-sdk")
+set(PICO_EXTRAS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../pico-extras")
+set(ROHINI_RTOS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../Rohini_RTOS-RP2040")
 
-# Path validation
-if (NOT EXISTS ${PICO_SDK_PATH})
-    message(FATAL_ERROR "PICO_SDK_PATH does not exist: ${PICO_SDK_PATH}")
-endif()
-if (NOT DEFINED PICO_SDK_PATH)
-    message(FATAL_ERROR "PICO_SDK_PATH is not defined.")
-endif()
-if (NOT IS_DIRECTORY ${PICO_SDK_PATH})
-    message(FATAL_ERROR "PICO_SDK_PATH is not a directory: ${PICO_SDK_PATH}")
-endif()
-message("\n\n PICO_SDK_PATH: ${PICO_SDK_PATH} \n\n")
+# Import Pico SDK & Extras
+include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
+include(${PICO_EXTRAS_PATH}/external/pico_extras_import.cmake)
 
-# Import Pico SDK & extras
-include("${PICO_SDK_PATH}/external/pico_sdk_import.cmake")
-include("${PICO_EXTRAS_PATH}/external/pico_extras_import.cmake")
+# Import Rohini RTOS
+include(${ROHINI_RTOS_PATH}/external/rohini_rtos_import.cmake)
 
-project("ros" LANGUAGES C CXX ASM)
-
-# Initialize SDK
+project(my_app C CXX ASM)
 pico_sdk_init()
 
-# Main application
+# App sources
 add_executable(${PROJECT_NAME}
     src/main.cpp
 )
 
-include_directories(${PROJECT_NAME}
-    ${PICO_SDK_PATH}/src/rp2_common/cmsis/include
+# Link RTOS + SDK
+target_link_libraries(${PROJECT_NAME} PUBLIC
+    pico_stdlib
+    kernel
+    scheduler
+    svc_handler
 )
 
-# Add OS and library directories
-add_subdirectory(os)
-add_subdirectory(lib)
-
-target_link_libraries(${PROJECT_NAME} PUBLIC pico_stdlib kernel svc_handler)
-
-# USB/UART output
+# Enable USB stdio
 pico_enable_stdio_usb(${PROJECT_NAME} 1)
 pico_enable_stdio_uart(${PROJECT_NAME} 0)
 
-# Output files
+# Generate .uf2 firmware
 pico_add_extra_outputs(${PROJECT_NAME})
 ```
 
-### 3. Build Commands
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
-
-The `.uf2` firmware file will be created in `build/` — drag it onto the RP2040’s USB storage to flash.
+This lets you include Rohini RTOS as part of **any RP2040 project**.
 
 ---
 
-## Getting Started
+## 📖 Example Usage
 
-### Minimal Example (C API)
+### Minimal Kernel App
 
 ```cpp
-#include "kernel.h"
+#include "kernel/kernel.h"
 using namespace rohini;
 
-void my_task() {
+void task() {
     while (true) {
         printf("Hello from task!\n");
         Kernel::yield();
@@ -167,74 +121,41 @@ void my_task() {
 
 int main() {
     Kernel::init();
-    Kernel::create_init(my_task);
-    Kernel::launch_core1();
+    Kernel::create_init(task);
+    Kernel::launch_core1();   // run scheduler on Core1
 }
 ```
 
-### Minimal Example (C++ Process API)
+### Using a Driver (GPIO)
 
-```cpp
-#include "kernel.h"
-using namespace rohini;
-
-class MyProcess : public Process {
-public:
-    void run() override {
-        while (true) {
-            printf("Hello from MyProcess!\n");
-            Kernel::yield();
-        }
-    }
-};
+```c
+#include "drivers/gpio/gpio.h"
 
 int main() {
-    Kernel::init();
-    MyProcess proc;
-    proc.spawn();
-    Kernel::launch_core1();
+    gpio_init(25);       // onboard LED
+    gpio_set_dir(25, true);
+
+    while (1) {
+        gpio_put(25, 1);
+        sleep_ms(500);
+        gpio_put(25, 0);
+        sleep_ms(500);
+    }
 }
 ```
 
 ---
 
-## API Reference
+## 📜 License
 
-### `class Kernel`
-
-| Method                                         | Description                                   |
-| ---------------------------------------------- | --------------------------------------------- |
-| `static void init()`                           | Initialize clocks, USB serial, and scheduler. |
-| `static void create_init(void (*entry)(void))` | Create the first process.                     |
-| `static void launch_core1()`                   | Start scheduler on Core 1.                    |
-| `static void yield()`                          | Yield CPU to another ready process.           |
-| `static int fork()`                            | Fork current process (returns child PID).     |
-| `static int exec(void (*entry)(void))`         | Replace current process code.                 |
-| `static void exit(int code)`                   | Terminate process with code.                  |
-| `static int wait(int pid)`                     | Wait for a child process to exit.             |
-
-### `class Process`
-
-Base class for object-oriented tasks.
-
-| Method               | Description                          |
-| -------------------- | ------------------------------------ |
-| `virtual void run()` | Override to implement process logic. |
-| `void spawn()`       | Register process with the scheduler. |
+This project is licensed under the **GNU GPL-3.0** License.
+See [LICENCE](LICENCE) for details.
 
 ---
 
-## Multicore Model
+## 🙌 Contributing
 
-* **Core 0**: System initialization, process creation
-* **Core 1**: Preemptive scheduler, task execution
-
----
-
-## License
-
-MIT License – see `LICENSE` file.
-
-```
+Contributions are welcome!
+Please open issues or submit PRs to improve drivers, kernel functionality, or add new features.
 
 ---
