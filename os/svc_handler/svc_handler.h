@@ -9,22 +9,6 @@
 extern "C" {
 #endif
 
-#ifndef IRQN_TYPE_DEFINED
-#define IRQN_TYPE_DEFINED
-
-typedef enum {
-    // Define only the IRQs you use, or stub them
-    TIMER_IRQ = 0,
-    UART0_IRQ = 1,
-    UART1_IRQ = 2,
-    SIO_IRQ = 3,
-    // Add more as needed
-    MAX_IRQn = 32
-} IRQn_Type;
-
-#define __NVIC_PRIO_BITS 2  // RP2040 supports 2 priority bits
-
-#endif
 
 //-----------------------------------------------------------------------------
 // 1. SVC Numbers

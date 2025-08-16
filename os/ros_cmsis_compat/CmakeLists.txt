@@ -1,6 +1,0 @@
-
-add_library(ros_cmsis_compat STATIC ${CMAKE_CURRENT_SOURCE_DIR}/ros_cmsis_compat.h)
-
-target_include_directories(ros_cmsis_compat PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-
-target_link_libraries(ros_cmsis_compat  PUBLIC hardware_regs cmsis_core)
