@@ -129,17 +129,17 @@ int main() {
 ### Using a Driver (GPIO)
 
 ```c
-#include "drivers/gpio/gpio.h"
+#include "gpio.h"
 
 int main() {
-    gpio_init(25);       // onboard LED
-    gpio_set_dir(25, true);
+    // Configure onboard LED (GPIO 25) as output
+    pinMode(25, OUTPUT);
 
-    while (1) {
-        gpio_put(25, 1);
-        sleep_ms(500);
-        gpio_put(25, 0);
-        sleep_ms(500);
+    while (true) {
+        digitalWrite(25, true);   // LED ON
+        delay(500);
+        digitalWrite(25, false);  // LED OFF
+        delay(500);
     }
 }
 ```
