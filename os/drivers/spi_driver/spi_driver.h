@@ -1,30 +1,12 @@
 #pragma once
 
-#include "RP2040.h"
-#include "hardware/address_mapped.h"
 #include "hardware/spi.h"
-
-#include "hardware/regs/spi.h"
-#include "hardware/regs/io_bank0.h"
-#include "hardware/regs/sio.h"
-#include "hardware/regs/resets.h"
-#include "hardware/regs/pads_bank0.h"
-
-
-#include "hardware/structs/spi.h"
-#include "hardware/structs/io_bank0.h"
-#include "hardware/structs/sio.h"
-#include "hardware/structs/resets.h"
-#include "hardware/structs/pads_bank0.h"
-
+#include "hardware/gpio.h"
+#include "hardware/clocks.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-
-
-#define IO_BANK0_GPIO0_CTRL_FUNCSEL_VALUE_SPI0_SCLK 0x01u
-#define IO_BANK0_GPIO0_CTRL_FUNCSEL_VALUE_SPI0_TX 0x01u
 
 
 /**

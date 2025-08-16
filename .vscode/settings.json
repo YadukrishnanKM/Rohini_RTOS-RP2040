@@ -14,7 +14,16 @@
         "optional": "c",
         "address_mapped.h": "c",
         "resets.h": "c",
-        "ranges": "c"
+        "ranges": "c",
+        "string_view": "c",
+        "fstream": "c",
+        "iosfwd": "c",
+        "iostream": "c",
+        "istream": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "clocks.h": "c"
     }
 
 }
