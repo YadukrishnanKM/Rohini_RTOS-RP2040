@@ -3,3 +3,5 @@ pico-sdk/
 pico-extras/
 picotool/
 clean_git.ps1
+includes/
+

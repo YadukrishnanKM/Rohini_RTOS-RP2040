@@ -5,6 +5,7 @@ cmake_minimum_required(VERSION 3.13)
 set(PICO_SDK_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-sdk")
 set(PICO_EXTRAS_PATH "${CMAKE_CURRENT_SOURCE_DIR}/pico-extras")
 set(PICOTOOL_FETCH_FROM_GIT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/picotool")
+set(ROS_SDK_PATH "${CMAKE_CURRENT_SOURCE_DIR}/os")
 
 #--------------------------------------------------------------------------------------------------------
 # Check if PICO_SDK_PATH is set and exists
@@ -24,6 +25,8 @@ endif()
 
 # Print the PICO_SDK_PATH for debugging purposes
 message("\n\n\n PICO_SDK_PATH: ${PICO_SDK_PATH} \n\n")
+
+message("\n\n\n ROS_SDK_PATH: ${ROS_SDK_PATH} \n\n")
 #--------------------------------------------------------------------------------------------------------
 
 # Include the Pico SDK import file
@@ -32,8 +35,10 @@ include("${PICO_SDK_PATH}/external/pico_sdk_import.cmake")
 # Include the Pico Extras import file
 include("${PICO_EXTRAS_PATH}/external/pico_extras_import.cmake")
 
+include("${ROS_SDK_PATH}/external/rohini_rtos_import.cmake")
 
-project("ros" LANGUAGES C CXX ASM)
+
+project("ros_1" LANGUAGES C CXX ASM)
 
 # initialize the Raspberry Pi Pico SDK
 pico_sdk_init()
@@ -52,9 +57,7 @@ include_directories(${PROJECT_NAME}
 )
 
 # Link the os libraries to the executable
-add_subdirectory(os)
 
-add_subdirectory(lib)
 
 target_link_libraries(${PROJECT_NAME} PUBLIC pico_stdlib kernel svc_handler)
 #--------------------------------------------------------------------------------------------------------
